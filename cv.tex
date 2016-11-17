@@ -28,8 +28,6 @@ ItalicFont = Fontin-Italic.otf
 {Fontin.otf}
 %%%
 
-\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
-\titlespacing{\section}{0pt}{3pt}{3pt}
 %Tweak a bit the top margin
 %\addtolength{\voffset}{-1.3cm}
 
@@ -39,9 +37,7 @@ ItalicFont = Fontin-Italic.otf
 %-------------WATERMARK TEST [**not part of a CV**]---------------
 \usepackage[absolute]{textpos}
 
-\setlength{\TPHorizModule}{30mm}
 \setlength{\TPVertModule}{\TPHorizModule}
-\textblockorigin{2mm}{0.65\paperheight}
 \setlength{\parindent}{0pt}
 
 %--------------------BEGIN DOCUMENT----------------------
@@ -83,6 +79,7 @@ ItalicFont = Fontin-Italic.otf
 %Section: Work Experience at the top
 \section{Work Experience}
 \begin{tabular}{r|p{11cm}}
+    \textsc{March 2016 - June 2016} & Teaching Assistant of \textbf{Operating System(CS330)}  \\ & \footnotesize{Project Based on \href{https://web.stanford.edu/class/cs140/projects/pintos/pintos.html}{Pintos}}\\\multicolumn{2}{c}{} \\
     \textsc{Apr-Sep 2015} & Developer at \textbf{GoldSpoon}  \\ & \footnotesize{Developed \href{http://www.franklychat.com/}{FranklyChat} admin console w/ \href{https://www.meteor.com/}{Meteor}}\\\multicolumn{2}{c}{} \\
     \textsc{Jun 2015} & Bug Bounty at \textbf{KISA} and \textbf{Kimchicon} Hacking Conf Staff \\&\footnotesize{Found critical bugs at Korean Fintech Application.}\\\multicolumn{2}{c}{} \\
     \textsc{May 26-27 2015} & \textbf{PHDAYS} Hacking CTF Final, 9th \\\multicolumn{2}{c}{} \\
@@ -95,7 +92,8 @@ ItalicFont = Fontin-Italic.otf
 %Section: Education
 \section{Education}
 \begin{tabular}{rl}	
- \textsc{Current} 2015 & Master of \textsc{Computer Science}, \textbf{KAIST}, DaeJeon\\&\\
+ \textsc{September 2016 - Current} & Ph.D Candidate of \textsc{Computer Science}, \textbf{KAIST}, DaeJeon\\&\\
+ \textsc{September 2015 - August 2016} & Master of \textsc{Computer Science}, \textbf{KAIST}, DaeJeon\\&\\
 \textsc{January 2011 - July 2015} & Undergraduate Degree in \textsc{Computer Science} \normalsize\textbf{KAIST}, DaeJeon\\&\\
 \textsc{March 2008 - February 2011}&  \textbf{SeJong Science High School}, Seoul\\
 \end{tabular}
@@ -109,6 +107,7 @@ ItalicFont = Fontin-Italic.otf
 \end{tabular}
 
 \section{Interests and Activities}
+System Design\\
 System Hacking\\
 Web Development\\
 Singing Songs (Member of Band, Vocal)\\
