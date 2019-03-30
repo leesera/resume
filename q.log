@@ -1,0 +1,11 @@
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=luatex 2019.3.29)  29 MAR 2019 18:31
+ restricted system commands enabled.
+**q
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/tools/q.tex File ignored
+)
+! Emergency stop.
+<*> q
+  
+*** (job aborted, no legal \end found)
+
+!  ==> Fatal error occurred, no output PDF file produced!
